@@ -1,0 +1,22 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.breadcrumbs__link.active {
+  color: #797878;
+}
+
+.breadcrumbs__arrow {
+  display: inline-block;
+  width: 6px;
+  height: 9px;
+  background-image: url("../../img/icon/right-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
