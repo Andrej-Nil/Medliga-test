@@ -1,0 +1,96 @@
+.product-card {
+  position: relative;
+  padding: 20px 30px;
+  width: 310px;
+  height: 478px;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.product-card__preveiw {
+  margin: 0 auto 18px;
+}
+
+.product-card__pic {
+  margin: 0 auto;
+  max-width: 210px;
+  max-height: 210px;
+  object-fit: contain;
+}
+
+.product-card__dots {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  height: 2px;
+}
+
+.product-card__dot {
+  display: block;
+  background-color: #f0f0f0;
+  width: 38px;
+  height: 2px;
+  &.active {
+    background-color: #a52421;
+  }
+}
+
+.product-card__title {
+  font-size: 15px;
+  //line-height: 1.467;
+  font-weight: 500;
+  min-height: 55px;
+  margin-bottom: 5px;
+}
+
+.product-card__price {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+
+.product-card__price-old {
+  font-size: 17px;
+  color: #797877;
+  text-decoration: line-through;
+}
+
+.product-card__price-new {
+  font-size: 24px;
+  font-family: "SFPro";
+  margin-top: auto;
+}
+
+.product-card__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card__more {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.product-card__brand {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
+
+.product-card__stickers {
+  display: grid;
+  gap: 8px;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+}
+
+.product-card__icon-btns {
+  display: grid;
+  gap: 8px;
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
