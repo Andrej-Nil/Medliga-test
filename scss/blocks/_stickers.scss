@@ -23,18 +23,18 @@
   display: inline-block;
   border: 1px solid #f0f0f0;
   border-radius: 7px;
-
-  font-size: 13px;
+  background: #fff;
+  font-size: 12px;
   font-family: "SFPro";
   color: #a52421;
   font-weight: 700;
-  padding: 4px 12px 4px 28px;
+  padding: 4px 8px 4px 25px;
   &::before {
     content: "";
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 12px;
+    left: 8px;
     display: block;
     width: 10px;
     height: 12px;
