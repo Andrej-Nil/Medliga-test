@@ -111,6 +111,7 @@ h6 {
 
 .sidebar {
   max-width: 277px;
+  flex-shrink: 0;
   width: 100%;
   border: 1px solid #f0f0f0;
   border-radius: 12px;
@@ -148,5 +149,33 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.category-card {
+  max-width: 226px;
+  width: 100%;
+  padding-bottom: 17px;
+}
+
+.category-card__preveiw {
+  max-width: 225px;
+  max-height: 160px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.category-card__title {
+  font-weight: bold;
+  line-height: 1.467;
+  text-align: center;
+  font-family: "SFPro";
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

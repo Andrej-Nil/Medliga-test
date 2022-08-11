@@ -59,6 +59,7 @@ h6 {
 
 .sidebar {
   max-width: 277px;
+  flex-shrink: 0;
   width: 100%;
   border: 1px solid #f0f0f0;
   border-radius: 12px;
