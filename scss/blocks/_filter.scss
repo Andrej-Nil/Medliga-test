@@ -1,0 +1,37 @@
+.filter {
+  border-bottom: 1px solid #f0f0f0;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.filter-head {
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.filter-head__title {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "SFPro";
+  font-weight: bold;
+}
+
+.filter-head__count {
+  border-radius: 50%;
+  background: #272625;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 9px 1px 7px;
+  color: #fff;
+}
+
+.filter-head__reset {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+.filter-head__arrow {
+}

@@ -1,0 +1,50 @@
+.search-result {
+  padding: 25px;
+  &.bd-bottom {
+    border-bottom: 1px solid #f0f0f0;
+  }
+  &.bd-top {
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+.search-result__text {
+  font-size: 16px;
+  font-family: "SFPro";
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.search-result__btn {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #686868;
+}
+
+.кнопка {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1700px;
+  height: 3873px;
+  z-index: 11;
+}
+
+.Rounded_Rectangle_1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #686868;
+
+  background-color: rgba(242, 242, 242, 0);
+  position: absolute;
+  left: 93px;
+  top: 462px;
+  width: 229px;
+  height: 44px;
+  z-index: 9;
+}
