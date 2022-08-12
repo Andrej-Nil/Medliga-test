@@ -1,0 +1,71 @@
+.display-filters {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "SFPro";
+}
+
+.display-filters__selected {
+  display: flex;
+  gap: 15px;
+}
+
+.display-filter__active {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: 7px 40px 7px 14px;
+}
+
+.display-filter__value {
+  color: #797878;
+}
+
+.display-filter__remove {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  display: block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-image: url("../../img/icon/close.png");
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: center;
+}
+
+.display-filters__reset {
+  position: relative;
+  background: #f7f7f7;
+  display: block;
+  padding: 7px 14px 7px 35px;
+  border-radius: 7px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url("../../img/icon/arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  &:hover {
+    background: #dfdfdf;
+  }
+}

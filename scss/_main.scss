@@ -72,6 +72,13 @@ h6 {
 
 .download-more {
   display: flex;
+  align-items: center;
   margin: 0 auto;
   justify-content: center;
+}
+
+.display-settings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }

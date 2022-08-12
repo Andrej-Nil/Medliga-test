@@ -1,0 +1,92 @@
+.display-order {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+}
+
+.display-order__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.display-order__icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  &.sort {
+    background-image: url("../../img/icon/wifi.png");
+  }
+}
+.display-order__item {
+  position: relative;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.display-order__label {
+  color: #797878;
+}
+.display-order__arrow {
+  //transform: rotate(180deg);
+  display: block;
+  width: 12px;
+  height: 14px;
+  background-image: url("../../img/icon/down-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.display-order__popup {
+  display: none;
+  //display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 100%);
+  z-index: 100;
+  padding-top: 10px;
+}
+
+.display-order__select {
+  background: #ffffff;
+  padding: 13px 8px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.05);
+}
+
+.display-order__option {
+  border-radius: 6px;
+  transition: 0.3s ease-in;
+  padding: 11px 35px;
+
+  &.active {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: block;
+      width: 15px;
+      height: 16px;
+      background-image: url("../../img/icon/check.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  &:hover {
+    background-color: #f7f7f7;
+  }
+}
