@@ -1,0 +1,35 @@
+.filter-more {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #54524f;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 15px 0 30px;
+}
+
+.filter-more__count {
+  color: #b3b3b3;
+}
+
+.filter-more__arrow {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/icon/arrow-down-light.png");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: bottom;
+    width: 10px;
+    height: 10px;
+  }
+}

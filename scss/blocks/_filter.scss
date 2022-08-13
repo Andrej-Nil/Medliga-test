@@ -1,37 +1,115 @@
 .filter {
   border-bottom: 1px solid #f0f0f0;
+
   &:last-child {
     border-bottom: none;
   }
 }
 
+.filter-body {
+  //height: 452px;
+  overflow: hidden;
+  //
+  &.close {
+    height: 0;
+  }
+}
+
 .filter-head {
-  padding: 20px 0;
-  cursor: pointer;
+  position: relative;
+  //align-items: center;
+  padding: 20px 28px 20px 0;
 }
 
 .filter-head__title {
-  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  display: inline;
   font-size: 16px;
   font-family: "SFPro";
   font-weight: bold;
 }
 
 .filter-head__count {
+  cursor: pointer;
+  margin-left: 5px;
+  position: relative;
   border-radius: 50%;
   background: #272625;
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1px 9px 1px 7px;
+  width: 20px;
+  height: 20px;
   color: #fff;
-}
+  font-size: 12px;
+  &.reset {
+    position: relative;
+    background: #efefef;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+      transform: translate(-50%, -50%);
+      background-image: url("../../img/icon/close.png");
+      background-repeat: no-repeat;
+      background-size: 8px;
+      background-position: center;
+      width: 10px;
+      height: 10px;
+    }
+  }
 
-.filter-head__reset {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
+  &.info {
+    background: #efefef;
+    color: #adadad;
+    font-weight: 700;
+  }
 }
 
 .filter-head__arrow {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background-image: url("../../img/icon/arrow-down-light.png");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+    width: 12px;
+    height: 12px;
+  }
+  &.open {
+    &::before {
+      background-image: url("../../img/icon/filter-arrow.png");
+    }
+  }
+}
+
+.filter__search {
+  border: 1px solid #dedede;
+  border-radius: 7px;
+  outline: none;
+  font-size: 15px;
+  font-family: "GoogleSans";
+  font-weight: 500;
+  color: #272625;
+
+  padding: 14px 17px;
+  &::placeholder {
+    font-family: "GoogleSans";
+    color: #797878;
+    font-weight: 500;
+  }
 }

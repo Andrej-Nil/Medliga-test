@@ -1,0 +1,80 @@
+.range {
+  margin-bottom: 30px;
+}
+.range-inputs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.range-input__min,
+.range-input__max {
+  width: 50%;
+  border: 1px solid #dedede;
+  outline: none;
+  font-size: 15px;
+  font-family: "GoogleSans";
+  font-weight: 500;
+  color: #272625;
+
+  padding: 14px 17px;
+  &::placeholder {
+    font-family: "GoogleSans";
+    color: #797878;
+    font-weight: 500;
+  }
+}
+
+.range-input__min {
+  border-radius: 7px 0 0 7px;
+  border-right: none;
+}
+.range-input__max {
+  border-radius: 0 7px 7px 0;
+}
+
+.range-slider {
+  margin-bottom: 20px;
+}
+
+.range-slider__bg {
+  position: relative;
+  background: #e5e5e5;
+  height: 4px;
+  width: 100%;
+}
+
+.range-slider__active {
+  display: block;
+  height: 4px;
+  width: 100%;
+
+  background: #db7876;
+}
+
+.range-slide {
+  display: block;
+  width: 12px;
+  height: 18px;
+  cursor: pointer;
+  background-image: url("../../img/icon/range-slide.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  &.min {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &.max {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.range-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #797878;
+}
