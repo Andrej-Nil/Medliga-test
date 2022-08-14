@@ -1,17 +1,31 @@
-.display-order {
+.display-sort {
   display: flex;
   gap: 30px;
   margin-right: 30px;
 }
 
-.display-order__item {
+.display-sort__item {
+  //display: flex;
+  //align-items: center;
+  //gap: 10px;
+  //cursor: pointer;
+}
+
+.display-sort__head {
   display: flex;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
 
-.display-order__icon {
+.display-sort__value {
+  white-space: nowrap;
+  max-width: 91px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.display-sort__icon {
   display: block;
   width: 16px;
   height: 16px;
@@ -22,18 +36,18 @@
     background-image: url("../../img/icon/wifi.png");
   }
 }
-.display-order__item {
+.display-sort__item {
   position: relative;
   display: flex;
   font-size: 15px;
   font-weight: 500;
+  user-select: none;
 }
 
-.display-order__label {
+.display-sort__label {
   color: #797878;
 }
-.display-order__arrow {
-  //transform: rotate(180deg);
+.display-sort__arrow {
   display: block;
   width: 12px;
   height: 14px;
@@ -41,35 +55,48 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  &.up {
+    transform: rotate(180deg);
+  }
 }
 
-.display-order__popup {
+.display-sort__popup {
   display: none;
-  //display: inline-block;
   position: absolute;
   bottom: 0;
   right: 0;
   transform: translate(50%, 100%);
-  z-index: 100;
+  z-index: 200;
   padding-top: 10px;
+  &.open {
+    display: block;
+  }
 }
 
-.display-order__select {
+.display-sort-list {
   background: #ffffff;
   padding: 13px 8px;
-  border: 1px solid #f1f1f1;
-  border-radius: 10px;
+  bsort: 1px solid #f1f1f1;
+  bsort-radius: 10px;
 
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04),
     0px 8px 12px 0px rgba(0, 0, 0, 0.05);
 }
 
-.display-order__option {
+.display-sort-list__value {
+  display: block;
+  display: block;
   border-radius: 6px;
   transition: 0.3s ease-in;
   padding: 11px 35px;
+  &:hover {
+    background-color: #f7f7f7;
+  }
+}
 
-  &.active {
+.display-sort-list__radio {
+  display: none;
+  &:checked + .display-sort-list__value {
     position: relative;
     &::before {
       content: "";
@@ -85,8 +112,5 @@
       background-size: contain;
       background-position: center;
     }
-  }
-  &:hover {
-    background-color: #f7f7f7;
   }
 }

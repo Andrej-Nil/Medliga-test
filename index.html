@@ -25,1314 +25,1785 @@
       </header>
 
       <main class="main">
+        <form actoin="index.html" metod="POST" class="filter-form">
 
-        <div class="sidebar">
-          <div class="search-result bd-bottom">
-            <p class="search-result__text">
-              145 товаров найдено
-            </p>
+          <div class="sidebar">
+            <div class="search-result bd-bottom">
+              <p class="search-result__text">
+                145 товаров найдено
+              </p>
 
-            <span class="search-result__btn">
-              Сбросить
-            </span>
+              <span class="search-result__btn">
+                Сбросить
+              </span>
 
-          </div>
+            </div>
 
-          <form class="filter-form">
-            <div class="filter">
-              <div class="filter-head">
+            <div class="filters">
+              <div class="filter">
+                <div class="filter-head">
 
-                <span class="filter-head__title">Бренд</span>
+                  <span class="filter-head__title">Бренд</span>
 
-                <span class="filter-head__count">
-                  <span class="filter-head__count-value">1</span>
-                </span>
+                  <span class="filter-head__count">
+                    <span class="filter-head__count-value">1</span>
+                  </span>
 
-                <span class="filter-head__count reset">
-                  <span class="filter-head__count-value">&nbsp</span>
-                </span>
+                  <span class="filter-head__count reset">
+                    <span class="filter-head__count-value">&nbsp</span>
+                  </span>
 
 
 
-                <span class="filter-head__arrow open"></span>
+                  <span class="filter-head__arrow open"></span>
+
+                </div>
+                <div class="filter-body">
+                  <div class="filter-body__content">
+                    <input type="text" class="filter__search" placeholder="Поиск бренда" />
+
+                    <ul class="filter-list">
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Esaote</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">General Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Hitachi</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Ippon</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Mitsubishi Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item out-of-stock">
+                        <label class="filter-option">
+                          <!--<input class="filter-option__checkbox" type="checkbox">-->
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+
+                        </label>
+                        <span class="filter-option__info filter-head__count info">
+                          <span class="filter-head__count-value">i</span>
+                        </span>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Esaote</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">General Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Hitachi</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Ippon</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Mitsubishi Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+                          <span class="filter-option__info filter-head__count info">
+                            <span class="filter-head__count-value">i</span>
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Esaote</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">General Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Hitachi</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Ippon</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Mitsubishi Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+                          <span class="filter-option__info filter-head__count info">
+                            <span class="filter-head__count-value">i</span>
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Canon</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Esaote</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item opacity-50">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">General Electric</span>
+
+                        </label>
+                      </li>
+
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Hitachi</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Ippon</span>
+
+                        </label>
+                      </li>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">Mitsubishi Electric</span>
+
+                        </label>
+                      </li>
+
+                    </ul>
+                    <span class="filter-more">
+                      <span class="filter-more__label">Показать все</span>
+                      <span class="filter-more__count">16</span>
+                      <span class="filter-more__arrow"></span>
+                    </span>
+                  </div>
+
+
+                </div>
 
               </div>
-              <div class="filter-body">
-                <div class="filter-body__content">
-                  <input type="text" class="filter__search" placeholder="Поиск бренда" />
 
-                  <ul class="filter-list">
+              <div class="filter">
+                <div class="filter-head">
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
+                  <span class="filter-head__title">Количество разъемов для датчиков</span>
 
-                      </label>
-                    </li>
+                  <span class="filter-head__count">
+                    <span class="filter-head__count-value">1</span>
+                  </span>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Esaote</span>
+                  <span class="filter-head__count reset">
+                    <span class="filter-head__count-value">&nbsp</span>
+                  </span>
 
-                      </label>
-                    </li>
+                  <span class="filter-head__arrow open"></span>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">General Electric</span>
+                </div>
+                <div class="filter-body ">
+                  <div class="filter-body__content">
+                    <ul class="filter-list">
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">1</span>
 
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Hitachi</span>
-
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Ippon</span>
-
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Mitsubishi Electric</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item out-of-stock">
-                      <label class="filter-option">
-                        <!--<input class="filter-option__checkbox" type="checkbox">-->
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
-
-                      </label>
-                      <span class="filter-option__info filter-head__count info">
-                        <span class="filter-head__count-value">i</span>
-                      </span>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Esaote</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">General Electric</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Hitachi</span>
-
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Ippon</span>
-
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Mitsubishi Electric</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
+                        </label>
                         <span class="filter-option__info filter-head__count info">
                           <span class="filter-head__count-value">i</span>
                         </span>
-                      </label>
-                    </li>
+                      </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">2</span>
 
-                      </label>
-                    </li>
+                        </label>
+                      </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Esaote</span>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">3</span>
 
-                      </label>
-                    </li>
+                        </label>
+                      </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">General Electric</span>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">4</span>
 
-                      </label>
-                    </li>
+                        </label>
+                      </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Hitachi</span>
+                      <li class="filter-list__item">
+                        <label class="filter-option">
+                          <input class="filter-option__checkbox" type="checkbox">
+                          <span class="filter-option__fake"></span>
+                          <span class="filter-option__value">5</span>
 
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Ippon</span>
+                        </label>
+                      </li>
 
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Mitsubishi Electric</span>
 
-                      </label>
-                    </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
-                        <span class="filter-option__info filter-head__count info">
-                          <span class="filter-head__count-value">i</span>
-                        </span>
-                      </label>
-                    </li>
+                    </ul>
+                  </div>
+                </div>
+                <span class="filter-more">
+                  <span class="filter-more__label">Показать все</span>
+                  <span class="filter-more__count">16</span>
+                  <span class="filter-more__arrow"></span>
+                </span>
+              </div>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Canon</span>
 
-                      </label>
-                    </li>
+              <div class="filter">
+                <div class="filter-head">
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Esaote</span>
+                  <span class="filter-head__title">Цена</span>
 
-                      </label>
-                    </li>
+                  <span class="filter-head__count">
+                    <span class="filter-head__count-value">1</span>
+                  </span>
 
-                    <li class="filter-list__item opacity-50">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">General Electric</span>
+                  <span class="filter-head__count reset">
+                    <span class="filter-head__count-value">&nbsp</span>
+                  </span>
 
-                      </label>
-                    </li>
+                  <span class="filter-head__arrow open"></span>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Hitachi</span>
+                </div>
 
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Ippon</span>
+                <div class="filter-body ">
+                  <div class="filter-body__content">
+                    <div class="range">
+                      <div class="range-inputs">
+                        <input type="text" placeholder="0 ₽" class="range-input__min">
+                        <input type="text" value="5562839 ₽" class="range-input__max">
+                      </div>
 
-                      </label>
-                    </li>
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">Mitsubishi Electric</span>
+                      <div class="range-slider">
+                        <div class="range-slider__bg">
+                          <div class="range-slider__active"></div>
+                          <span class="range-slide min"></span>
+                          <span class="range-slide max"></span>
+                        </div>
 
-                      </label>
-                    </li>
 
-                  </ul>
-                  <span class="filter-more">
-                    <span class="filter-more__label">Показать все</span>
-                    <span class="filter-more__count">16</span>
-                    <span class="filter-more__arrow"></span>
+                      </div>
+
+                      <div class="range-price">
+                        <span class="range-price__item">0 ₽</span>
+                        <span class="range-price__item">8158343 ₽</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="search-result bd-top">
+              <p class="search-result__text">
+                145 товаров найдено
+              </p>
+
+              <span class="search-result__btn">
+                Сбросить
+              </span>
+
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="category-list">
+              <div class="category-card">
+                <a href="#!">
+                  <div class="category-card__preveiw">
+                    <img class="category-card__img" src="./img/image/pic1.png" alt="">
+                  </div>
+                  <p class="category-card__title">Источники бесперебойного питания</p>
+                </a>
+              </div>
+
+              <div class="category-card">
+                <a href="#!">
+                  <div class="category-card__preveiw">
+                    <img class="category-card__img" src="./img/image/pic1.png" alt="">
+                  </div>
+                  <p class="category-card__title">Источники бесперебойного питания</p>
+                </a>
+              </div>
+
+              <div class="category-card">
+                <a href="#!">
+                  <div class="category-card__preveiw">
+                    <img class="category-card__img" src="./img/image/pic1.png" alt="">
+                  </div>
+                  <p class="category-card__title">Источники бесперебойного питания</p>
+                </a>
+              </div>
+
+              <div class="category-card">
+                <a href="#!">
+                  <div class="category-card__preveiw">
+                    <img class="category-card__img" src="./img/image/pic1.png" alt="">
+                  </div>
+                  <p class="category-card__title">Источники бесперебойного питания</p>
+                </a>
+              </div>
+              <div class="category-card">
+                <a href="#!">
+                  <div class="category-card__preveiw">
+                    <img class="category-card__img" src="./img/image/pic1.png" alt="">
+                  </div>
+                  <p class="category-card__title">Источники бесперебойного питания</p>
+                </a>
+              </div>
+            </div>
+
+
+
+            <div class="display-settings">
+              <div class="display-filters">
+                <div class="display-filters__selected">
+                  <span class="display-filter__active">
+                    <span class="display-filter__label">Бренд:</span>
+                    <span class="display-filter__value">General Electric</span>
+                    <span class="display-filter__remove"></span>
+                  </span>
+                  <span class="display-filter__active">
+                    <span class="display-filter__label">Области применения:</span>
+                    <span class="display-filter__value">2 знач</span>
+                    <span class="display-filter__remove"></span>
                   </span>
                 </div>
 
-
+                <span class="display-filters__reset">Сбросить</span>
               </div>
+
+              <div class="display-sort">
+                <div data-sort="close" class="display-sort__item">
+                  <div data-sort-head class="display-sort__head">
+                    <span class="display-sort__icon sort"></span>
+                    <span class="display-sort__label">Сортировать по:</span>
+                    <span data-value class="display-sort__value">Популярные</span>
+                    <span data-arrow class="display-sort__arrow"></span>
+                  </div>
+                  <div data-sort-popup class="display-sort__popup">
+                    <ul class="display-sort-list">
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="Популярные" class="display-sort-list__radio" type="radio" name="sort"
+                            checked value="Популярные" />
+                          <span class="display-sort-list__value">
+                            Популярные
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="Цена по возрастанию" class="display-sort-list__radio" type="radio"
+                            name="sort" value="Цена по возрастанию" />
+                          <span class="display-sort-list__value">
+                            Цена по возрастанию
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="Цена по убыванию" class="display-sort-list__radio" type="radio" name="sort"
+                            value="Цена по убыванию" />
+                          <span class="display-sort-list__value">
+                            Цена по убыванию
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div data-sort="close" class="display-sort__item">
+                  <div data-sort-head class="display-sort__head">
+                    <span class="display-sort__label">Выводить:</span>
+                    <span data-value class="display-sort__value">24</span>
+                    <span data-arrow class="display-sort__arrow"></span>
+                  </div>
+                  <div data-sort-popup class="display-sort__popup">
+
+
+                    <ul class="display-sort-list">
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="24" class="display-sort-list__radio" type="radio" name="count" value="24"
+                            checked />
+                          <span class="display-sort-list__value">
+                            24
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="36" class="display-sort-list__radio" type="radio" name="count"
+                            value="36" />
+                          <span data-value class="display-sort-list__value">
+                            36
+                          </span>
+                        </label>
+                      </li>
+
+                      <li class="display-sort-list__option">
+                        <label class="display-sort-list__lavel">
+                          <input data-radio="48" class="display-sort-list__radio" type="radio" name="count"
+                            value="48" />
+                          <span class="display-sort-list__value">
+                            48
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="display-type">
+                <span class="display__item tile active"></span>
+                <span class="display__item mixed"></span>
+                <span class="display__item list"></span>
+              </div>
+
+
 
             </div>
 
-            <div class="filter">
-              <div class="filter-head">
+            <div data-product-list class="product-list">
 
-                <span class="filter-head__title">Количество разъемов для датчиков</span>
-
-                <span class="filter-head__count">
-                  <span class="filter-head__count-value">1</span>
-                </span>
-
-                <span class="filter-head__count reset">
-                  <span class="filter-head__count-value">&nbsp</span>
-                </span>
-
-                <span class="filter-head__arrow open"></span>
-
-              </div>
-              <div class="filter-body ">
-                <div class="filter-body__content">
-                  <ul class="filter-list">
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">1</span>
-
-                      </label>
-                      <span class="filter-option__info filter-head__count info">
-                        <span class="filter-head__count-value">i</span>
-                      </span>
+              <div data-id="0" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
                     </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">2</span>
-
-                      </label>
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
                     </li>
 
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">3</span>
-
-                      </label>
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
                     </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">4</span>
-
-                      </label>
-                    </li>
-
-                    <li class="filter-list__item">
-                      <label class="filter-option">
-                        <input class="filter-option__checkbox" type="checkbox">
-                        <span class="filter-option__fake"></span>
-                        <span class="filter-option__value">5</span>
-
-                      </label>
-                    </li>
-
-
-
                   </ul>
                 </div>
-              </div>
-              <span class="filter-more">
-                <span class="filter-more__label">Показать все</span>
-                <span class="filter-more__count">16</span>
-                <span class="filter-more__arrow"></span>
-              </span>
-            </div>
 
-
-            <div class="filter">
-              <div class="filter-head">
-
-                <span class="filter-head__title">Цена</span>
-
-                <span class="filter-head__count">
-                  <span class="filter-head__count-value">1</span>
-                </span>
-
-                <span class="filter-head__count reset">
-                  <span class="filter-head__count-value">&nbsp</span>
-                </span>
-
-                <span class="filter-head__arrow open"></span>
-
-              </div>
-
-              <div class="filter-body ">
-                <div class="filter-body__content">
-                  <div class="range">
-                    <div class="range-inputs">
-                      <input type="text" placeholder="0 ₽" class="range-input__min">
-                      <input type="text" value="5562839 ₽" class="range-input__max">
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
                     </div>
-
-                    <div class="range-slider">
-                      <div class="range-slider__bg">
-                        <div class="range-slider__active"></div>
-                        <span class="range-slide min"></span>
-                        <span class="range-slide max"></span>
-                      </div>
-
-
-                    </div>
-
-                    <div class="range-price">
-                      <span class="range-price__item">0 ₽</span>
-                      <span class="range-price__item">8158343 ₽</span>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
                     </div>
                   </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
                 </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
               </div>
 
-            </div>
-          </form>
+              <div data-id="1" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
 
-          <div class="search-result bd-top">
-            <p class="search-result__text">
-              145 товаров найдено
-            </p>
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
 
-            <span class="search-result__btn">
-              Сбросить
-            </span>
-
-          </div>
-        </div>
-        <div class="content">
-          <div class="category-list">
-            <div class="category-card">
-              <a href="#!">
-                <div class="category-card__preveiw">
-                  <img class="category-card__img" src="./img/image/pic1.png" alt="">
-                </div>
-                <p class="category-card__title">Источники бесперебойного питания</p>
-              </a>
-            </div>
-
-            <div class="category-card">
-              <a href="#!">
-                <div class="category-card__preveiw">
-                  <img class="category-card__img" src="./img/image/pic1.png" alt="">
-                </div>
-                <p class="category-card__title">Источники бесперебойного питания</p>
-              </a>
-            </div>
-
-            <div class="category-card">
-              <a href="#!">
-                <div class="category-card__preveiw">
-                  <img class="category-card__img" src="./img/image/pic1.png" alt="">
-                </div>
-                <p class="category-card__title">Источники бесперебойного питания</p>
-              </a>
-            </div>
-
-            <div class="category-card">
-              <a href="#!">
-                <div class="category-card__preveiw">
-                  <img class="category-card__img" src="./img/image/pic1.png" alt="">
-                </div>
-                <p class="category-card__title">Источники бесперебойного питания</p>
-              </a>
-            </div>
-            <div class="category-card">
-              <a href="#!">
-                <div class="category-card__preveiw">
-                  <img class="category-card__img" src="./img/image/pic1.png" alt="">
-                </div>
-                <p class="category-card__title">Источники бесперебойного питания</p>
-              </a>
-            </div>
-          </div>
-
-          <div class="display-settings">
-            <div class="display-filters">
-              <div class="display-filters__selected">
-                <span class="display-filter__active">
-                  <span class="display-filter__label">Бренд:</span>
-                  <span class="display-filter__value">General Electric</span>
-                  <span class="display-filter__remove"></span>
-                </span>
-                <span class="display-filter__active">
-                  <span class="display-filter__label">Области применения:</span>
-                  <span class="display-filter__value">2 знач</span>
-                  <span class="display-filter__remove"></span>
-                </span>
-              </div>
-
-              <span class="display-filters__reset">Сбросить</span>
-            </div>
-
-            <div class="display-order">
-              <div class="display-order__item">
-                <span class="display-order__icon sort"></span>
-                <span class="display-order__label">Сортировать по:</span>
-                <span class="display-order__value">Популярные</span>
-                <span class="display-order__arrow"></span>
-
-                <div class="display-order__popup">
-
-
-                  <ul class="display-order__select">
-
-                    <li class="display-order__option active">Популярные</li>
-                    <li class="display-order__option">Цена по возрастанию</li>
-                    <li class="display-order__option">Цена по убыванию</li>
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
                   </ul>
                 </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
               </div>
-              <div class="display-order__item">
-                <span class="display-order__label">Выводить:</span>
-                <span class="display-order__value">24</span>
-                <span class="display-order__arrow"></span>
 
-                <div class="display-order__popup">
+              <div data-id="2" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
 
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
 
-                  <ul class="display-order__select">
-
-                    <li class="display-order__option active">24</li>
-                    <li class="display-order__option">36</li>
-                    <li class="display-order__option">48</li>
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
                   </ul>
                 </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
               </div>
+
+
+              <div data-id="0" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="1" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="2" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+              <div data-id="0" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="1" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="2" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+
+              <div data-id="0" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="1" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic active" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+              <div data-id="2" class="product-card">
+                <div class="product-card__bg">
+                  <ul class="property">
+                    <li class="property__item">
+                      <span class="property__label">Вид оборудования</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">УЗИ аппарат</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Производитель</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Mindray</span>
+                    </li>
+                    <li class="property__item">
+                      <span class="property__label">Тип</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Портативный</span>
+                    </li>
+
+                    <li class="property__item">
+                      <span class="property__label">Класс</span>
+                      <span class="property__dots"></span>
+                      <span class="property__value">Высокий</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-card__inner">
+                  <div class="product-card__preveiw">
+                    <div class="product-card__slider">
+                      <img class="product-card__pic active" src="./img/image/pic1.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic3.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic4.png" alt="product">
+                      <img class="product-card__pic" src="./img/image/pic5.png" alt="product">
+                    </div>
+                    <div class="product-card__dots">
+                      <span class="product-card__dot active"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                      <span class="product-card__dot"></span>
+                    </div>
+                  </div>
+
+
+                  <h2 class="product-card__title">
+                    <a class="product-card__link" href="#!">
+                      Ультразвуковая диагностическая система Mindray DC-60 Exp
+                      диагностическая
+                    </a>
+                  </h2>
+
+                  <div class="product-card__price">
+                    <p class="product-card__price-old">2 550 000 ₽</p>
+                    <p class="product-card__price-new">от 1 990 580 ₽</p>
+                  </div>
+
+                  <div class="product-card__nav">
+                    <a href="#!" class="product-card__more">Подробнее</a>
+                    <button class="product-card__btn btn">Получить КП</button>
+                  </div>
+
+
+                </div>
+                <span class="product-card__brand sticker-brand">
+                  <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
+                </span>
+
+                <div class="product-card__stickers">
+                  <span class="product-card__sale sticker-sale">
+                    скидка -11%
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/2.png" alt="">
+                  </span>
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/1.png" alt="">
+                  </span>
+
+
+                  <span class="product-card__sticker sticker">
+                    <img class="sticker__pic" src="./img/icon/3.png" alt="">
+                  </span>
+                </div>
+
+                <div class="product-card__icon-btns">
+                  <span class="icon-btn eye"></span>
+                  <span class="icon-btn heart active"></span>
+                  <span class="icon-btn graph"></span>
+                </div>
+
+              </div>
+
+
             </div>
-            <div class="display-type">
-              <span class="display__item tile active"></span>
-              <span class="display__item mixed"></span>
-              <span class="display__item list"></span>
+
+            <div class="download-more">
+              <span class="download-btn">
+                Показать еще 23 товара
+              </span>
             </div>
 
 
-
+            <div class="pagination">
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a class="pagination__link active" href="!#">01</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">02</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">03</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">04</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">05</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">06</a>
+                </li>
+                <li class="pagination__item">
+                  <span class="pagination__link fake">..</span>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="!#">20</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="product-list">
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-
-            </div>
-
-            <div class="product-card">
-              <div class="product-card__bg">
-                <ul class="property">
-                  <li class="property__item">
-                    <span class="property__label">Вид оборудования</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">УЗИ аппарат</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Производитель</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Mindray</span>
-                  </li>
-                  <li class="property__item">
-                    <span class="property__label">Тип</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Портативный</span>
-                  </li>
-
-                  <li class="property__item">
-                    <span class="property__label">Класс</span>
-                    <span class="property__dots"></span>
-                    <span class="property__value">Высокий</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="product-card__inner">
-                <div class="product-card__preveiw">
-                  <div class="product-card__slider">
-                    <img class="product-card__pic" src="./img/image/pic2.png" alt="product">
-                  </div>
-                  <div class="product-card__dots">
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot active"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                    <span class="product-card__dot"></span>
-                  </div>
-                </div>
-
-
-                <h2 class="product-card__title">
-                  <a class="product-card__link" href="#!">
-                    Ультразвуковая диагностическая система Mindray DC-60 Exp
-                    диагностическая
-                  </a>
-                </h2>
-
-                <div class="product-card__price">
-                  <p class="product-card__price-old">2 550 000 ₽</p>
-                  <p class="product-card__price-new">от 1 990 580 ₽</p>
-                </div>
-
-                <div class="product-card__nav">
-                  <a href="#!" class="product-card__more">Подробнее</a>
-                  <button class="product-card__btn btn">Получить КП</button>
-                </div>
-
-
-              </div>
-              <span class="product-card__brand sticker-brand">
-                <img class="sticker-brand__img" src="./img/image/brand.png" alt="brand">
-              </span>
-
-              <div class="product-card__stickers">
-                <span class="product-card__sale sticker-sale">
-                  скидка -11%
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/2.png" alt="">
-                </span>
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/1.png" alt="">
-                </span>
-
-
-                <span class="product-card__sticker sticker">
-                  <img class="sticker__pic" src="./img/icon/3.png" alt="">
-                </span>
-              </div>
-
-              <div class="product-card__icon-btns">
-                <span class="icon-btn eye"></span>
-                <span class="icon-btn heart active"></span>
-                <span class="icon-btn graph"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="download-more">
-            <span class="download-btn">
-              Показать еще 23 товара
-            </span>
-          </div>
-
-
-          <div class="pagination">
-            <ul class="pagination__list">
-              <li class="pagination__item">
-                <a class="pagination__link active" href="!#">01</a>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">02</a>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">03</a>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">04</a>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">05</a>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">06</a>
-              </li>
-              <li class="pagination__item">
-                <span class="pagination__link fake">..</span>
-              </li>
-              <li class="pagination__item">
-                <a class="pagination__link" href="!#">20</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
+        </form>
       </main>
 
     </div>

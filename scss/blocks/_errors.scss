@@ -1,0 +1,32 @@
+.product-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: -1px 0 0 -1px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100.2%;
+  height: 100.2%;
+  background: rgba(255, 255, 255, 1);
+  z-index: 100;
+}
+
+.product-error__content {
+  max-width: 600px;
+}
+
+.product-error__icon {
+  margin: 0 auto;
+  height: 200px;
+}
+
+.product-error__message {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  padding-left: 40px;
+}

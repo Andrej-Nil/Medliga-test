@@ -1,6 +1,9 @@
 @import "./font";
 @import "./main";
+@import "./blocks/animations";
 @import "./blocks/btn";
+@import "./blocks/loaders";
+@import "./blocks/errors";
 @import "./blocks/stickers";
 @import "./blocks/main-title";
 @import "./blocks/search-result";
@@ -14,7 +17,7 @@
 @import "./blocks/product-list";
 @import "./blocks/product-card";
 @import "./blocks/display-type";
-@import "./blocks/display-order";
+@import "./blocks/display-sort";
 @import "./blocks/display-filters";
 @import "./blocks/property";
 @import "./blocks/pagination";

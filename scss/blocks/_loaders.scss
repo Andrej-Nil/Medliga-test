@@ -1,0 +1,40 @@
+.product-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: -1px 0 0 -1px;
+  align-items: flex-start;
+  display: flex;
+  padding-top: 300px;
+  justify-content: center;
+  width: 100.2%;
+  height: 100.2%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+  animation: bg-flicker 1.5s linear infinite;
+}
+
+.product-loader__message {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  padding-left: 40px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    transform: translateY(-50%);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/other/Rolling2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
+    animation: rotation 1s linear infinite;
+  }
+}
