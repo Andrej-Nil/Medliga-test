@@ -1,8 +1,15 @@
 .product-list {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid #f0f0f0;
   border-left: 1px solid #f0f0f0;
   margin-bottom: 50px;
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

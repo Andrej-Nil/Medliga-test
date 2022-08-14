@@ -1,6 +1,11 @@
 .category-list {
   display: grid;
+  display: none;
   grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 30px;
+
+  @media (min-width: 1600px) {
+    gap: 30px;
+  }
 }

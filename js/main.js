@@ -319,6 +319,19 @@ class Service {
     ]
   }
 
+  getMore = (count) => {
+    const ProductList = this.testData.products.slice(0, count);
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (Math.random() > 0.80) {
+          resolve('error');
+        } else {
+          resolve(ProductList);
+        }
+      }, 700);
+    });
+  }
+
 
   getData(data) {
     return new Promise((resolve, reject) => {
@@ -358,14 +371,14 @@ class Render {
 
   getProductListLoaderHtml = () => {
     return (/*html */`
-    <div class="product-loader">
+    <div data-loader class="product-loader">
       <span class="product-loader__message">Загружаю</span>
     </div>
     `)
   }
   getProductListErrorHtml = () => {
     return (/*html */`
-      <div class="product-error">
+      <div data-error class="product-error">
         <div class="product-error__content">
           <img class="product-error__icon" src="./img/icon/broken-robot.svg" alt="">
           <span class="product-error__message">Упс! Что то пошло не так, перезагрузите сраницу!</span>
@@ -540,8 +553,6 @@ class Render {
 
 }
 
-
-
 class Sort {
   constructor() {
     this.init()
@@ -629,6 +640,58 @@ class Sort {
   }
 }
 
-const sort = new Sort();
+class Pagination {
+  constructor() {
+    this.$productList = document.querySelector('[data-product-list]')
+    this.moreBtn = document.querySelector('[data-more]');
+    this.init();
+  }
+
+  init = () => {
+    this.listeners();
+  }
+
+  downloadMore = async () => {
+    const error = this.$productList.querySelector('[data-error]');
+    if (error) return;
+    const count = this.moreBtn.dataset.more;
+
+    render.renderProductListLoader(this.$productList);
+    const loader = this.$productList.querySelector('[data-loader]');
+
+    const res = await service.getMore(count);
+
+    if (res === 'error') {
+      render.clearParent(this.$productList);
+      this.$productList.innerHTML = '<div class="product-card"></div>'
+      render.renderProductListError(this.$productList);
+    } else {
+
+      render.delete(loader);
+      render.renderProductCards(this.$productList, res)
+    }
+
+  }
+
+  clickHandler = () => {
+
+  }
+  listeners = () => {
+
+    if (this.moreBtn) {
+      this.moreBtn.addEventListener('click', this.downloadMore)
+    }
+  }
+}
+
+class ProductCard {
+  constructor() {
+    this.init();
+  }
+}
+
+
 const service = new Service();
 const render = new Render();
+const sort = new Sort();
+const pagination = new Pagination();

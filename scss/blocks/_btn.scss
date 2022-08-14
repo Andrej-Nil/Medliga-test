@@ -4,8 +4,10 @@
   border: none;
   border-radius: 8px;
   outline: none;
-  padding: 13px 30px;
-  font-size: 15px;
+  text-align: center;
+  padding: 9px 15px;
+  font-size: 11px;
+  width: 100%;
   font-weight: 500;
   font-family: "GoogleSans";
   color: #ffffff;
@@ -14,6 +16,10 @@
   &:hover {
     background: #db302d;
   }
+  @media (min-width: 650px) {
+    font-size: 15px;
+    padding: 13px 30px;
+  }
 }
 
 .icon-btn {
@@ -21,20 +27,30 @@
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0px 2px 3px 0px rgba(67, 67, 67, 0.15);
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-repeat: no-repeat;
+  background-size: 50%;
   background-position: center;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  &:hover {
-    box-shadow: 0px 0px 0px 0px rgba(67, 67, 67, 0.15);
-    background-color: #f7f7f7;
+
+  @media (min-width: 650px) {
+    width: 40px;
+    height: 40px;
+    &:hover {
+      box-shadow: 0px 0px 0px 0px rgba(67, 67, 67, 0.15);
+      background-color: #f7f7f7;
+    }
   }
 }
 
 .icon-btn.eye {
+  display: none;
   background-image: url("../../img/icon/eye.png");
+  @media (min-width: 1280px) {
+    display: block;
+  }
 }
 
 .icon-btn.heart {
@@ -42,7 +58,11 @@
 }
 
 .icon-btn.graph {
+  display: none;
   background-image: url("../../img/icon/graph.png");
+  @media (min-width: 1280px) {
+    display: block;
+  }
 }
 
 .icon-btn.active {
