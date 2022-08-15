@@ -14,11 +14,18 @@
     <div class="container">
       <header class="header">
         <div class="breadcrumbs">
-          <a class="breadcrumbs__link" href="!#">Главная</a>
-          <span class="breadcrumbs__arrow"></span>
-          <a class="breadcrumbs__link" href="!#">Каталог</a>
-          <span class="breadcrumbs__arrow"></span>
-          <a class="breadcrumbs__link active" href="!#">Ультразвуковая диагностика</a>
+          <span class="breadcrumbs-mobile">
+            <span class="breadcrumbs-mobile__arrow"></span>
+            <a class="breadcrumbs__link mobile" href="!#">Назад</a>
+          </span>
+          <div class="breadcrumbs-desc">
+            <a class="breadcrumbs__link" href="!#">Главная</a>
+            <span class="breadcrumbs__arrow"></span>
+            <a class="breadcrumbs__link" href="!#">Каталог</a>
+            <span class="breadcrumbs__arrow"></span>
+            <a class="breadcrumbs__link active" href="!#">Ультразвуковая диагностика</a>
+          </div>
+
         </div>
 
         <h1 class="main-title">Ультразвуковая диагностика</h1>
@@ -460,7 +467,7 @@
           <div class="content">
             <div class="category-list">
               <div class="category-card">
-                <a href="#!">
+                <a class="category-card__link" href="#!">
                   <div class="category-card__preveiw">
                     <img class="category-card__img" src="./img/image/pic1.png" alt="">
                   </div>
@@ -469,7 +476,7 @@
               </div>
 
               <div class="category-card">
-                <a href="#!">
+                <a class="category-card__link" href="#!">
                   <div class="category-card__preveiw">
                     <img class="category-card__img" src="./img/image/pic1.png" alt="">
                   </div>
@@ -478,7 +485,7 @@
               </div>
 
               <div class="category-card">
-                <a href="#!">
+                <a class="category-card__link" href="#!">
                   <div class="category-card__preveiw">
                     <img class="category-card__img" src="./img/image/pic1.png" alt="">
                   </div>
@@ -487,7 +494,7 @@
               </div>
 
               <div class="category-card">
-                <a href="#!">
+                <a class="category-card__link" href="#!">
                   <div class="category-card__preveiw">
                     <img class="category-card__img" src="./img/image/pic1.png" alt="">
                   </div>
@@ -495,7 +502,7 @@
                 </a>
               </div>
               <div class="category-card">
-                <a href="#!">
+                <a class="category-card__link" href="#!">
                   <div class="category-card__preveiw">
                     <img class="category-card__img" src="./img/image/pic1.png" alt="">
                   </div>
@@ -523,100 +530,100 @@
 
                 <span class="display-filters__reset">Сбросить</span>
               </div>
+              <div class="display-settings__right">
+                <div class="display-sort">
+                  <div data-sort="close" class="display-sort__item mobile">
+                    <div data-sort-head class="display-sort__head">
+                      <span class="display-sort__icon sort"></span>
+                      <span class="display-sort__label">Сортировать по:</span>
+                      <span data-value class="display-sort__value">Популярные</span>
+                      <span data-arrow class="display-sort__arrow"></span>
+                    </div>
+                    <div data-sort-popup class="display-sort__popup">
+                      <ul class="display-sort-list">
 
-              <div class="display-sort">
-                <div data-sort="close" class="display-sort__item">
-                  <div data-sort-head class="display-sort__head">
-                    <span class="display-sort__icon sort"></span>
-                    <span class="display-sort__label">Сортировать по:</span>
-                    <span data-value class="display-sort__value">Популярные</span>
-                    <span data-arrow class="display-sort__arrow"></span>
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="Популярные" class="display-sort-list__radio" type="radio" name="sort"
+                              checked value="Популярные" />
+                            <span class="display-sort-list__value">
+                              Популярные
+                            </span>
+                          </label>
+                        </li>
+
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="Цена по возрастанию" class="display-sort-list__radio" type="radio"
+                              name="sort" value="Цена по возрастанию" />
+                            <span class="display-sort-list__value">
+                              Цена по возрастанию
+                            </span>
+                          </label>
+                        </li>
+
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="Цена по убыванию" class="display-sort-list__radio" type="radio"
+                              name="sort" value="Цена по убыванию" />
+                            <span class="display-sort-list__value">
+                              Цена по убыванию
+                            </span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div data-sort-popup class="display-sort__popup">
-                    <ul class="display-sort-list">
+                  <div data-sort="close" class="display-sort__item">
+                    <div data-sort-head class="display-sort__head">
+                      <span class="display-sort__label">Выводить:</span>
+                      <span data-value class="display-sort__value">24</span>
+                      <span data-arrow class="display-sort__arrow"></span>
+                    </div>
+                    <div data-sort-popup class="display-sort__popup">
 
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="Популярные" class="display-sort-list__radio" type="radio" name="sort"
-                            checked value="Популярные" />
-                          <span class="display-sort-list__value">
-                            Популярные
-                          </span>
-                        </label>
-                      </li>
 
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="Цена по возрастанию" class="display-sort-list__radio" type="radio"
-                            name="sort" value="Цена по возрастанию" />
-                          <span class="display-sort-list__value">
-                            Цена по возрастанию
-                          </span>
-                        </label>
-                      </li>
+                      <ul class="display-sort-list">
 
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="Цена по убыванию" class="display-sort-list__radio" type="radio" name="sort"
-                            value="Цена по убыванию" />
-                          <span class="display-sort-list__value">
-                            Цена по убыванию
-                          </span>
-                        </label>
-                      </li>
-                    </ul>
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="24" class="display-sort-list__radio" type="radio" name="count" value="24"
+                              checked />
+                            <span class="display-sort-list__value">
+                              24
+                            </span>
+                          </label>
+                        </li>
+
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="36" class="display-sort-list__radio" type="radio" name="count"
+                              value="36" />
+                            <span data-value class="display-sort-list__value">
+                              36
+                            </span>
+                          </label>
+                        </li>
+
+                        <li class="display-sort-list__option">
+                          <label class="display-sort-list__lavel">
+                            <input data-radio="48" class="display-sort-list__radio" type="radio" name="count"
+                              value="48" />
+                            <span class="display-sort-list__value">
+                              48
+                            </span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div data-sort="close" class="display-sort__item">
-                  <div data-sort-head class="display-sort__head">
-                    <span class="display-sort__label">Выводить:</span>
-                    <span data-value class="display-sort__value">24</span>
-                    <span data-arrow class="display-sort__arrow"></span>
-                  </div>
-                  <div data-sort-popup class="display-sort__popup">
-
-
-                    <ul class="display-sort-list">
-
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="24" class="display-sort-list__radio" type="radio" name="count" value="24"
-                            checked />
-                          <span class="display-sort-list__value">
-                            24
-                          </span>
-                        </label>
-                      </li>
-
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="36" class="display-sort-list__radio" type="radio" name="count"
-                            value="36" />
-                          <span data-value class="display-sort-list__value">
-                            36
-                          </span>
-                        </label>
-                      </li>
-
-                      <li class="display-sort-list__option">
-                        <label class="display-sort-list__lavel">
-                          <input data-radio="48" class="display-sort-list__radio" type="radio" name="count"
-                            value="48" />
-                          <span class="display-sort-list__value">
-                            48
-                          </span>
-                        </label>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="display-type">
+                  <span class="display__item tile active"></span>
+                  <span class="display__item mixed"></span>
+                  <span class="display__item list"></span>
                 </div>
               </div>
-              <div class="display-type">
-                <span class="display__item tile active"></span>
-                <span class="display__item mixed"></span>
-                <span class="display__item list"></span>
-              </div>
-
 
 
             </div>
@@ -625,7 +632,7 @@
 
               <div data-id="0" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -711,7 +718,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -720,7 +727,7 @@
 
               <div data-id="1" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -806,7 +813,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -815,7 +822,7 @@
 
               <div data-id="2" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -901,7 +908,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -911,7 +918,7 @@
 
               <div data-id="0" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -997,7 +1004,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1006,7 +1013,7 @@
 
               <div data-id="1" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1092,7 +1099,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1101,7 +1108,7 @@
 
               <div data-id="2" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1187,7 +1194,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1195,7 +1202,7 @@
               </div>
               <div data-id="0" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1281,7 +1288,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1290,7 +1297,7 @@
 
               <div data-id="1" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1376,7 +1383,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1385,7 +1392,7 @@
 
               <div data-id="2" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1471,7 +1478,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1481,7 +1488,7 @@
 
               <div data-id="0" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1567,7 +1574,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1576,7 +1583,7 @@
 
               <div data-id="1" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1662,7 +1669,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1671,7 +1678,7 @@
 
               <div data-id="2" class="product-card">
                 <div class="product-card__bg">
-                  <ul class="property">
+                  <ul class="product-card__property property">
                     <li class="property__item">
                       <span class="property__label">Вид оборудования</span>
                       <span class="property__dots"></span>
@@ -1757,7 +1764,7 @@
                 </div>
 
                 <div class="product-card__icon-btns">
-                  <span class="icon-btn eye"></span>
+                  <span data-quick-view class="icon-btn eye"></span>
                   <span class="icon-btn heart active"></span>
                   <span class="icon-btn graph"></span>
                 </div>
@@ -1806,6 +1813,22 @@
         </form>
       </main>
 
+    </div>
+
+
+    <div id="quickView" data-close class="quick-view">
+
+      <div class="quick-view__inner">
+        <span data-close class="quick-view__close">
+
+        </span>
+        <p class="quick-view__title">
+          Быстрый просмотр товара
+        </p>
+        <div data-main class="quick-view__main">
+
+        </div>
+      </div>
     </div>
 
   </div>

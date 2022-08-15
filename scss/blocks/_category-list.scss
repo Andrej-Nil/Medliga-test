@@ -1,9 +1,15 @@
 .category-list {
   display: grid;
-  display: none;
-  grid-template-columns: repeat(5, 1fr);
+  //display: none;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   margin-bottom: 30px;
+  @media (min-width: 650px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
 
   @media (min-width: 1600px) {
     gap: 30px;

@@ -10,6 +10,7 @@ class Service {
         link: '#!',
         price: { old: '10 000 000 ₽', current: '8 000 000 ₽' },
         sale: '20%',
+        size_sale: '170 000  ₽',
         stickers: [
           './img/icon/1.png',
           './img/icon/2.png',
@@ -27,7 +28,8 @@ class Service {
           './img/image/pic3.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
 
       {
@@ -37,6 +39,7 @@ class Service {
         link: '#!',
         price: { old: '7 000 000 ₽', current: 'от 1 990 580 ₽' },
         sale: '20%',
+        size_sale: '120 900 ₽',
         stickers: [
           './img/icon/1.png',
           './img/icon/2.png'
@@ -53,7 +56,8 @@ class Service {
           './img/image/pic3.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
 
       {
@@ -79,7 +83,8 @@ class Service {
           './img/image/pic5.png',
           './img/image/pic1.png',
 
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
 
       {
@@ -89,6 +94,7 @@ class Service {
         link: '#!',
         price: { old: '10 000 000 ₽', current: '8 000 000 ₽' },
         sale: '20%',
+        size_sale: '120 000  ₽',
         stickers: [
           './img/icon/1.png',
           './img/icon/2.png',
@@ -106,7 +112,8 @@ class Service {
           './img/image/pic3.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
 
       {
@@ -116,6 +123,7 @@ class Service {
         link: '#!',
         price: { old: '', current: '5 000 000 ₽' },
         sale: '20%',
+        size_sale: '1 120 900 ₽',
         stickers: [
           './img/icon/3.png',
           './img/icon/2.png'
@@ -131,7 +139,8 @@ class Service {
           './img/image/pic2.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: ''
       },
 
       {
@@ -140,7 +149,7 @@ class Service {
         brand: './img/image/brand.png',
         link: '#!',
         price: { old: '11 000 000 ₽', current: '9 000 000 ₽' },
-        sale: '20%',
+        size_sale: '',
         stickers: [
           './img/icon/2.png',
           './img/icon/1.png',
@@ -159,7 +168,8 @@ class Service {
           './img/image/pic2.png',
           './img/image/pic3.png',
 
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
       {
         id: 6,
@@ -168,6 +178,7 @@ class Service {
         link: '#!',
         price: { old: '', current: '9 000 000 ₽' },
         sale: '20%',
+        size_sale: '1 900 ₽',
         stickers: [
           './img/icon/1.png',
           './img/icon/3.png'
@@ -183,7 +194,8 @@ class Service {
           './img/image/pic2.png',
           './img/image/pic3.png',
 
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой функциональностью. УЗ-сканер M7 оснащен специальным пакетом опций для кардиологических обследований и программным обеспечением для организации рабочего процесса. Является идеальным выбором для профессионалов, ставящих качество'
       },
 
       {
@@ -193,6 +205,7 @@ class Service {
         link: '#!',
         price: { old: '10 000 000 ₽', current: '8 000 000 ₽' },
         sale: '20%',
+        size_sale: '1 170 000 ₽',
         stickers: [
           './img/icon/1.png',
           './img/icon/2.png',
@@ -210,7 +223,8 @@ class Service {
           './img/image/pic3.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: ''
       },
 
       {
@@ -220,6 +234,7 @@ class Service {
         link: '#!',
         price: { old: '7 000 000 ₽', current: '5 000 000 ₽' },
         sale: '20%',
+        size_sale: '1 210 000 ₽',
         stickers: [
           './img/icon/3.png',
           './img/icon/1.png',
@@ -234,7 +249,8 @@ class Service {
           './img/image/pic1.png',
           './img/image/pic2.png',
           './img/image/pic3.png',
-        ]
+        ],
+        desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой '
       },
 
       {
@@ -243,6 +259,7 @@ class Service {
         brand: './img/image/brand.png',
         link: '#!',
         price: { old: '11 000 000 ₽', current: '9 000 000 ₽' },
+        size_sale: '',
         stickers: [
           './img/icon/2.png',
         ],
@@ -259,7 +276,8 @@ class Service {
 
           './img/image/pic3.png',
 
-        ]
+        ],
+        desc: ''
       },
 
       {
@@ -269,6 +287,7 @@ class Service {
         link: '#!',
         price: { old: '7 000 000 ₽', current: '5 000 000 ₽' },
         sale: '20%',
+        size_sale: '2 100 000',
         stickers: [
           './img/icon/3.png',
           './img/icon/1.png',
@@ -286,7 +305,8 @@ class Service {
           './img/image/pic3.png',
           './img/image/pic4.png',
           './img/image/pic5.png',
-        ]
+        ],
+        desc: 'Портативнавящих качество'
       },
 
       {
@@ -296,6 +316,7 @@ class Service {
         link: '#!',
         price: { old: '11 000 000 ₽', current: '9 000 000 ₽' },
         sale: '20%',
+        size_sale: '2 170 000',
         stickers: [
           './img/icon/2.png',
           './img/icon/1.png',
@@ -314,7 +335,7 @@ class Service {
           './img/image/pic2.png',
           './img/image/pic3.png',
 
-        ]
+        ], desc: 'Портативная переносная система цветной допплерографии М7 отличается самой высокой о'
       }
     ]
   }
@@ -332,6 +353,18 @@ class Service {
     });
   }
 
+  getProduct = (id) => {
+    const product = this.testData.products.find((item) => item.id == id);
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        if (Math.random() > 0.80) {
+          resolve('error');
+        } else {
+          resolve([product]);
+        }
+      }, 700);
+    });
+  }
 
   getData(data) {
     return new Promise((resolve, reject) => {
@@ -362,6 +395,10 @@ class Render {
 
   renderProductCards = ($parent, cards) => {
     this._render($parent, this.getProductCardHtml, false, cards);
+  }
+
+  renderModalContent = ($parent, content) => {
+    this._render($parent, this.getQuickModalContentHtml, false, content);
   }
 
   //Методы отресовки элементов
@@ -398,7 +435,7 @@ class Render {
     return (/*html */`
       <div data-id="${id}" class="product-card">
         <div class="product-card__bg">
-          <ul class="property">
+          <ul class="product-card__property property">
             ${propertyHtml}
           </ul>
         </div>
@@ -440,7 +477,7 @@ class Render {
         </div>
 
         <div class="product-card__icon-btns">
-          <span class="icon-btn eye"></span>
+          <span data-quick-view class="icon-btn eye"></span>
           <span class="icon-btn heart active"></span>
           <span class="icon-btn graph"></span>
         </div>
@@ -496,6 +533,107 @@ class Render {
    `
     )
   }
+
+
+
+  getModalSlidesHtml = (img, idx) => {
+    const cls = idx === 0 ? 'quick-view-slider__slide active' : 'quick-view-slider__slide'
+    return (/*html */`
+      <div class="${cls}">
+        <img src="${img}" alt="product" class="quick-view-slider__pic">
+      </div>
+    `
+    )
+  }
+
+
+  getModalSlidesdotsHtml = (img, idx) => {
+    const cls = idx === 0 ? 'quick-view-slider__dot active' : 'quick-view-slider__dot'
+    return (/*html */`
+      <div class="${cls}">
+        <img src="${img}" alt="product" class="quick-view-slider__pic">
+      </div>
+    `
+    )
+  }
+
+  getQuickModalContentHtml = (content) => {
+    const { id, title, img, sale, stickers, brand, price, siza_sale, desc, property, link } = content
+    const sliders = this.getListHtml(this.getModalSlidesHtml, img);
+    const dots = this.getListHtml(this.getModalSlidesdotsHtml, img);
+    const stickersHtml = this.getListHtml(this.getProductStickerHtml, stickers);
+    const propertyHtml = this.getListHtml(this.getPropertyHtml, property);
+    const saleSticker = sale ? this.getProductSaleStickerHtml(sale) : '';
+
+
+    return (/*html */`
+    <div class="quick-view__content">
+            <div class="quick-view__coll">
+              <div class="quick-view-slider">
+                <div class="quick-view-slider__slides">
+                 ${sliders}
+                </div>
+
+                <div class="quick-view-slider__dots">
+                 ${dots}
+                </div>
+
+              </div>
+              <div class="quick-view__stickers">
+                ${saleSticker}
+                ${stickersHtml}
+              </div>
+
+            </div>
+            <div class="quick-view__coll">
+              <div class="quick-view__price-tag">
+                <div class="quick-view__brand">
+                  <img class="sticker-brand__img" src="${brand}" alt="brand">
+                </div>
+
+
+                <div class="quick-view__price">
+                  <p class="quick-view__price-old">${price.old}</p>
+                  <p class="quick-view__price-new">${price.current}</p>
+                </div>
+
+                <div class="quick-view-sale">
+                  <span class="quick-view-sale__label">Вы экономите:</span>
+                  <span class="quick-view-sale__value">${siza_sale}</span>
+                </div>
+                <button class="quick-view__btn btn">Получить КП</button>
+                <div class="quick-view-actions">
+                  <span class="quick-view-actions__item heart">В избранное</span>
+                  <span class="quick-view-actions__item graph">Сравнить</span>
+                </div>
+
+              </div>
+
+              <div class="quick-view__info">
+                <div class="quick-view__desc">
+                  ${desc}
+                </div>
+              </div>
+
+              <div class="quick-view__property">
+                <ul class="property">
+                ${propertyHtml}
+                </ul>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+          <div class="quick-view__bottom">
+            <p class="quick-view__product-title">${title}</p>
+
+            <a href="${link}" class="quick-view__more btn">Подробнее</a>
+          </div>
+    `)
+  }
   getListHtml = (getHtmlFn, arr) => {
     let list = '';
     arr.forEach((item, idx) => {
@@ -506,12 +644,15 @@ class Render {
     return list;
   }
 
+
   //Общая функция отрисовки
   _render = ($parent, getHtmlMarkup, argument = false, array = false, where = 'beforeend') => {
     let markupAsStr = '';
     if (!$parent) {
       return;
     }
+
+
     if (array) {
       array.forEach((item) => {
         markupAsStr = markupAsStr + getHtmlMarkup(item);
@@ -684,9 +825,53 @@ class Pagination {
   }
 }
 
-class ProductCard {
+class QuickView {
   constructor() {
+    this.$modal = document.querySelector('#quickView');
     this.init();
+  }
+
+  init = () => {
+    if (!this.$modal) return;
+    this.$main = this.$modal.querySelector('[data-main]');
+    this.$body = document.querySelector('body');
+    this.listeners()
+  }
+
+  open = async ($btn) => {
+    const $product = $btn.closest('[ data-id]')
+    const id = $product.dataset.id;
+    this.$modal.classList.add('open');
+    this.$body.classList.add('no-scroll');
+    render.clearParent(this.$main);
+    render.renderProductListLoader(this.$main);
+    const res = await service.getProduct(id);
+    if (res == 'error') {
+      render.clearParent(this.$main);
+      render.renderProductListError(this.$main);
+    } else {
+      render.clearParent(this.$main);
+      render.renderModalContent(this.$main, res);
+    }
+  }
+
+  close = () => {
+    this.$modal.classList.remove('open');
+    this.$body.classList.remove('no-scroll');
+  }
+
+  clickHandler = (e) => {
+    if (e.target.closest('[data-quick-view]')) {
+      this.open(e.target.closest('[data-quick-view]'))
+    }
+
+    if (e.target.hasAttribute('data-close')) {
+      this.close()
+    }
+  }
+
+  listeners = () => {
+    document.addEventListener('click', this.clickHandler)
   }
 }
 
@@ -695,3 +880,4 @@ const service = new Service();
 const render = new Render();
 const sort = new Sort();
 const pagination = new Pagination();
+const quickView = new QuickView();

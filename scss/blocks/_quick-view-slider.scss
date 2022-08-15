@@ -1,0 +1,46 @@
+.quick-view-slider__slides {
+  margin-bottom: 20px;
+}
+
+.quick-view-slider__slide {
+  display: none;
+  width: 320px;
+  height: 320px;
+
+  &.active {
+    display: block;
+  }
+}
+
+.quick-view-slider__pic {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.quick-view-slider__dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quick-view-slider__dot {
+  border-radius: 8px;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  &.active {
+    border: 1px solid #272625;
+  }
+}
+
+.Rectangle_2260_copy_5 {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.02);
+  position: absolute;
+  left: 778px;
+  top: 891px;
+
+  z-index: 741;
+}

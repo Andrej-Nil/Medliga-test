@@ -1,15 +1,26 @@
 .breadcrumbs {
   display: flex;
-  display: none;
   align-items: center;
   gap: 18px;
-  margin-bottom: 28px;
+  margin-bottom: 15px;
   font-size: 14px;
   font-weight: 500;
+  .active {
+    color: #797878;
+  }
+  @media (min-width: 650px) {
+    margin-bottom: 28px;
+  }
 }
 
-.breadcrumbs__link.active {
-  color: #797878;
+.breadcrumbs-desc {
+  display: none;
+
+  @media (min-width: 650px) {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
 }
 
 .breadcrumbs__arrow {
@@ -17,6 +28,25 @@
   width: 6px;
   height: 9px;
   background-image: url("../../img/icon/right-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.breadcrumbs-mobile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  @media (min-width: 650px) {
+    display: none;
+  }
+}
+
+.breadcrumbs-mobile__arrow {
+  display: block;
+  width: 15px;
+  height: 12px;
+  background-image: url("../../img/icon/arrow-back.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

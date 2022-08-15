@@ -27,6 +27,7 @@ body {
   font-family: "GoogleSans";
   font-weight: 400;
   color: #272625;
+  //overflow: hidden;
 }
 
 h1,
@@ -36,6 +37,10 @@ h4,
 h5,
 h6 {
   font-weight: 400;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .app {
@@ -62,7 +67,10 @@ h6 {
 }
 
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  @media (min-width: 650px) {
+    margin-bottom: 40px;
+  }
 }
 
 .main {
@@ -89,6 +97,7 @@ h6 {
   border: 1px solid #f0f0f0;
   border-radius: 12px;
   @media (min-width: 960px) {
+    display: block;
     max-width: 277px;
   }
 }
@@ -117,8 +126,30 @@ h6 {
 
 .display-settings {
   display: flex;
-
+  justify-content: space-between;
+  flex-direction: column-reverse;
   align-items: center;
-  margin-bottom: 30px;
-  display: none;
+  margin-bottom: 20px;
+  //display: none;
+  gap: 20px;
+  @media (min-width: 1280px) {
+    margin-bottom: 30px;
+  }
+  @media (min-width: 1600px) {
+    max-width: 1240px;
+    flex-direction: row;
+  }
+}
+
+.display-settings__left {
+  display: flex;
+
+  width: 100%;
+}
+
+.display-settings__right {
+  display: flex;
+
+  justify-content: space-between;
+  width: 100%;
 }

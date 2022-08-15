@@ -1,0 +1,197 @@
+.quick-view {
+  position: fixed;
+  display: none;
+  overflow: auto;
+  padding: 100px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  &.open {
+    display: none;
+  }
+  @media (min-width: 1280px) {
+    &.open {
+      display: grid;
+    }
+  }
+}
+.quick-view__main {
+  min-height: 400px;
+}
+.quick-view__inner {
+  position: relative;
+  border-radius: 12px;
+  background: #fff;
+  padding: 35px 35px 35px;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quick-view__coll {
+  position: relative;
+}
+
+.quick-view__stickers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.quick-view__close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background-image: url("../../img/icon/close-modal.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.quick-view__content {
+  display: flex;
+  gap: 40px;
+  padding: 40px 0;
+}
+.quick-view__coll {
+  width: 50%;
+}
+
+.quick-view__title {
+  font-size: 36px;
+  font-family: "SFPro";
+  color: #272625;
+  margin-bottom: 40px;
+}
+
+.quick-view__price-tag {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 15px;
+}
+
+.quick-view__brand {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4px;
+}
+
+.quick-view__price {
+  margin-bottom: 20px;
+}
+
+.quick-view__price-old {
+  font-size: 17px;
+  color: #797877;
+  text-decoration: line-through;
+}
+
+.quick-view__price-new {
+  font-size: 30px;
+  color: #272625;
+}
+
+.quick-view-sale {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 23px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: block;
+    width: 14px;
+    height: 15px;
+    background-image: url("../../img/icon/fire.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.quick-view-sale__value {
+  color: #a52421;
+}
+
+.quick-view__btn {
+  max-width: 230px;
+  margin-bottom: 23px;
+}
+
+.quick-view-actions {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.quick-view-actions__item {
+  position: relative;
+  padding: 4px 0 4px 25px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  &.heart {
+    &::before {
+      background-image: url("../../img/icon/heart1.png");
+    }
+  }
+  &.graph {
+    &::before {
+      background-image: url("../../img/icon/graph.png");
+    }
+  }
+}
+
+//.quick-view__info {
+//}
+.quick-view__bottom {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.quick-view__product-title {
+  font-size: 24px;
+  font-family: "SFPro";
+  font-weight: 600;
+}
+
+.quick-view__desc {
+  font-size: 13px;
+  padding: 20px 0 40px;
+}
+
+.quick-view__more {
+  width: 230px;
+}

@@ -1,6 +1,9 @@
 .display-type {
-  display: flex;
+  display: none;
   gap: 5px;
+  @media (min-width: 650px) {
+    display: flex;
+  }
 }
 
 .display__item {
