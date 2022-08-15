@@ -58,7 +58,7 @@
   background-repeat: no-repeat;
   background-position: center;
   &.sort {
-    background-image: url("../../img/icon/wifi.png");
+    background-image: url("../img/icon/wifi.png");
   }
   @media (min-width: 650px) {
     display: block;
@@ -76,7 +76,7 @@
   display: block;
   width: 12px;
   height: 14px;
-  background-image: url("../../img/icon/down-arrow.png");
+  background-image: url("../img/icon/down-arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -152,7 +152,7 @@
       display: block;
       width: 12px;
       height: 12px;
-      background-image: url("../../img/icon/check.png");
+      background-image: url("../img/icon/check.png");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;

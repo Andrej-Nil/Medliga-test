@@ -32,17 +32,17 @@
 
   &.tile {
     &::before {
-      background-image: url("../../img/icon/display3.png");
+      background-image: url("../img/icon/display3.png");
     }
   }
   &.mixed {
     &::before {
-      background-image: url("../../img/icon/display2.png");
+      background-image: url("../img/icon/display2.png");
     }
   }
   &.list {
     &::before {
-      background-image: url("../../img/icon/display1.png");
+      background-image: url("../img/icon/display1.png");
     }
   }
 

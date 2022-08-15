@@ -47,19 +47,19 @@
 
 .icon-btn.eye {
   display: none;
-  background-image: url("../../img/icon/eye.png");
+  background-image: url("../img/icon/eye.png");
   @media (min-width: 1280px) {
     display: block;
   }
 }
 
 .icon-btn.heart {
-  background-image: url("../../img/icon/heart.png");
+  background-image: url("../img/icon/heart.png");
 }
 
 .icon-btn.graph {
   display: none;
-  background-image: url("../../img/icon/graph.png");
+  background-image: url("../img/icon/graph.png");
   @media (min-width: 1280px) {
     display: block;
   }
@@ -90,7 +90,7 @@
     opacity: 0;
     width: 24px;
     height: 24px;
-    background-image: url("../../img/other/Rolling2.svg");
+    background-image: url("../img/other/Rolling2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     transition: 0.3s ease-in-out;
